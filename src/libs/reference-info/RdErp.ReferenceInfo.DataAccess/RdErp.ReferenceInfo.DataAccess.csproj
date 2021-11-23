@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\cross-cutting\RdErp.Common\RdErp.Common.csproj" />
+    <ProjectReference Include="..\..\cross-cutting\RdErp.DataAccess\RdErp.DataAccess.csproj" />
+    <ProjectReference Include="..\RdErp.ReferenceInfo.Contract\RdErp.ReferenceInfo.Contract.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="linq2db" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.0" />
+    <PackageReference Include="npgsql" Version="4.0.0" />
+
+  </ItemGroup>
+
+</Project>

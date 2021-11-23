@@ -1,0 +1,16 @@
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/obj/Debug/netstandard2.0/RdErp.Financial.Core.csprojAssemblyReference.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/obj/Debug/netstandard2.0/RdErp.Financial.Core.csproj.CoreCompileInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/obj/Debug/netstandard2.0/RdErp.Financial.Core.AssemblyInfoInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/obj/Debug/netstandard2.0/RdErp.Financial.Core.AssemblyInfo.cs
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/bin/Debug/netstandard2.0/RdErp.Financial.Core.deps.json
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/bin/Debug/netstandard2.0/RdErp.Financial.Core.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/bin/Debug/netstandard2.0/RdErp.Financial.Core.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/bin/Debug/netstandard2.0/RdErp.Financial.Contract.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/bin/Debug/netstandard2.0/RdErp.Financial.Contract.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/obj/Debug/netstandard2.0/RdErp.Financial.Core.csproj.CopyComplete
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/obj/Debug/netstandard2.0/RdErp.Financial.Core.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/obj/Debug/netstandard2.0/RdErp.Financial.Core.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/bin/Debug/netstandard2.0/RdErp.Financial.DataAccess.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/bin/Debug/netstandard2.0/RdErp.Financial.DataAccess.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/bin/Debug/netstandard2.0/RdErp.Common.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Core/bin/Debug/netstandard2.0/RdErp.Common.pdb

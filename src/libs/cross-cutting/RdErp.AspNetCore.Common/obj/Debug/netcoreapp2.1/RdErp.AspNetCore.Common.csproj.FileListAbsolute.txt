@@ -1,0 +1,14 @@
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/obj/Debug/netcoreapp2.1/RdErp.AspNetCore.Common.csprojAssemblyReference.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/obj/Debug/netcoreapp2.1/RdErp.AspNetCore.Common.csproj.CoreCompileInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/obj/Debug/netcoreapp2.1/RdErp.AspNetCore.Common.AssemblyInfoInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/obj/Debug/netcoreapp2.1/RdErp.AspNetCore.Common.AssemblyInfo.cs
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/bin/Debug/netcoreapp2.1/RdErp.AspNetCore.Common.deps.json
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/bin/Debug/netcoreapp2.1/RdErp.AspNetCore.Common.runtimeconfig.json
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/bin/Debug/netcoreapp2.1/RdErp.AspNetCore.Common.runtimeconfig.dev.json
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/bin/Debug/netcoreapp2.1/RdErp.AspNetCore.Common.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/bin/Debug/netcoreapp2.1/RdErp.AspNetCore.Common.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/obj/Debug/netcoreapp2.1/RdErp.AspNetCore.Common.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/obj/Debug/netcoreapp2.1/RdErp.AspNetCore.Common.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/bin/Debug/netcoreapp2.1/RdErp.Common.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/bin/Debug/netcoreapp2.1/RdErp.Common.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.AspNetCore.Common/obj/Debug/netcoreapp2.1/RdErp.AspNetCore.Common.csproj.CopyComplete

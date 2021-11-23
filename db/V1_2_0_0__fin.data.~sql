@@ -1,0 +1,32 @@
+insert into fin.cost_center(id, name, is_active)
+values
+    (1, 'RD-DEV LTD. USD', true),
+    (2, 'RD-DEV LTD. UAH', true),
+    (3, 'RD-DEV LTD. EUR', true);
+
+
+insert into fin.transaction_codes (code, name, description, is_active)
+values
+    -- 1XXXXXX -> Income
+    (1000000, 'Payment from customer', null, true),
+
+    -- 2XXXXXX -> Expenses
+    -- 21XXXXX -> Employee payments
+    (2110000, 'Salary payment', null, true),
+    (2120000, 'Bonus payment', null, true),
+    (2130000, 'Profit', null, true),
+    -- 22XXXXX -> Office expenses
+    (2210000, 'Office rent', null, true),
+    (2220000, 'Internet', null, true),
+    (2230001, 'Cleaning', null, true),
+    -- 23XXXXX -> Taxes
+    (2310001, 'Profit Tax', null, true),
+    -- 24XXXXX -> Payment to external services
+    (2410001, 'HR Expenses', null, true),
+
+    -- 3XXXXXX -> Moving money without balance changing
+    -- Usually required corresponding transaction
+    (3000000, 'Initial balance', null, true),
+    (3100000, 'Currency exchange', null, true),
+    (3200000, 'Payment to internal account', null, true)
+   ;

@@ -1,0 +1,16 @@
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/bin/Debug/netstandard2.0/RdErp.Attributes.DataAccess.deps.json
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/bin/Debug/netstandard2.0/RdErp.Attributes.DataAccess.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/bin/Debug/netstandard2.0/RdErp.Attributes.DataAccess.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/bin/Debug/netstandard2.0/RdErp.Attributes.Contract.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/bin/Debug/netstandard2.0/RdErp.Common.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/bin/Debug/netstandard2.0/RdErp.DataAccess.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/bin/Debug/netstandard2.0/RdErp.Common.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/bin/Debug/netstandard2.0/RdErp.DataAccess.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/bin/Debug/netstandard2.0/RdErp.Attributes.Contract.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/obj/Debug/netstandard2.0/RdErp.Attributes.DataAccess.csprojAssemblyReference.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/obj/Debug/netstandard2.0/RdErp.Attributes.DataAccess.csproj.CoreCompileInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/obj/Debug/netstandard2.0/RdErp.Attributes.DataAccess.AssemblyInfoInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/obj/Debug/netstandard2.0/RdErp.Attributes.DataAccess.AssemblyInfo.cs
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/obj/Debug/netstandard2.0/RdErp.Attributes.DataAccess.csproj.CopyComplete
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/obj/Debug/netstandard2.0/RdErp.Attributes.DataAccess.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/attribute/RdErp.Attributes.DataAccess/obj/Debug/netstandard2.0/RdErp.Attributes.DataAccess.pdb

@@ -1,0 +1,24 @@
+### Docker
+
+@auth=http://auth.rd-erp.io
+@secret=skdmf234i34nrkn98234444lsdklfsdf
+
+### Local
+# @auth=http://localhost:5000
+# @secret=12345
+
+###
+# Resource owner grant
+POST {{auth}}/connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&client_id=rd&client_secret={{secret}}&username=serg&password=root&scope=rd-erp
+
+
+###
+# Authorization code grant
+
+GET {{auth}}/login
+    ?response_type=code
+    &scope=rd-erp
+    &client_id=rd

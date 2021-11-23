@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{43002EE4-D258-47EE-BAB3-EA54417D3AAC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="libs/cross-cutting/RdErp.DataAccess/Configuration.cs">
+    <Files>
+      <File FileName="libs/financial/RdErp.Financial.DataAccess/Configuration.cs" Line="1" Column="1" />
+      <File FileName="libs/financial/RdErp.Financial.DataAccess/Linq2DbFinancialTransactionDataAccessor.cs" Line="22" Column="31" />
+      <File FileName="libs/financial/RdErp.Financial.Contract/FinancialTransactionInfo.cs" Line="8" Column="59" />
+      <File FileName="libs/financial/RdErp.Financial.Contract/FinancialTransaction.cs" Line="13" Column="18" />
+      <File FileName="services/RdErp.Financial.Service/Startup.cs" Line="38" Column="26" />
+      <File FileName="libs/cross-cutting/RdErp.DataAccess/Configuration.cs" Line="23" Column="63" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RdErp" expanded="True">
+            <Node name="libs" expanded="True">
+              <Node name="cross-cutting" expanded="True">
+                <Node name="RdErp.DataAccess" expanded="True">
+                  <Node name="Configuration.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="financial" expanded="True">
+                <Node name="RdErp.Financial.Contract" expanded="True" />
+                <Node name="RdErp.Financial.DataAccess" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="services" expanded="True">
+              <Node name="RdErp.Financial.Service" expanded="True" />
+              <Node name="RdErp.Reporting.Service" expanded="True">
+                <Node name="Controllers" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.services.RdErp.Financial.Service PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,9 @@
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/bin/Debug/netstandard2.0/RdErp.Planning.EventGeneration.deps.json
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/bin/Debug/netstandard2.0/RdErp.Planning.EventGeneration.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/bin/Debug/netstandard2.0/RdErp.Planning.EventGeneration.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/obj/Debug/netstandard2.0/RdErp.Planning.EventGeneration.csprojAssemblyReference.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/obj/Debug/netstandard2.0/RdErp.Planning.EventGeneration.csproj.CoreCompileInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/obj/Debug/netstandard2.0/RdErp.Planning.EventGeneration.AssemblyInfoInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/obj/Debug/netstandard2.0/RdErp.Planning.EventGeneration.AssemblyInfo.cs
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/obj/Debug/netstandard2.0/RdErp.Planning.EventGeneration.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/obj/Debug/netstandard2.0/RdErp.Planning.EventGeneration.pdb

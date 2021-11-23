@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\RdErp.Planning.Contract\RdErp.Planning.Contract.csproj" />
+    <ProjectReference Include="..\RdErp.Planning.EventGeneration\RdErp.Planning.EventGeneration.csproj" />
+    <ProjectReference Include="..\RdErp.Planning.DataAccess\RdErp.Planning.DataAccess.csproj" />
+    <ProjectReference Include="..\..\cross-cutting\RdErp.Common\RdErp.Common.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DynamicExpresso.Core" Version="2.1.0" />
+    <PackageReference Include="linq2db" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.0" />
+    <PackageReference Include="FluentValidation" Version="7.6.103" />
+    <PackageReference Include="mapster" Version="3.1.8" />
+
+  </ItemGroup>
+
+</Project>

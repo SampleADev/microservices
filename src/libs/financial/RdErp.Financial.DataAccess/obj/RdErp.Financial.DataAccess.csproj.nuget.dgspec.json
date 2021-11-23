@@ -1,0 +1,216 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/RdErp.Financial.DataAccess.csproj": {}
+  },
+  "projects": {
+    "/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/RdErp.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/RdErp.Common.csproj",
+        "projectName": "RdErp.Common",
+        "projectPath": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/RdErp.Common.csproj",
+        "packagesPath": "/Users/mjlt2/.nuget/packages/",
+        "outputPath": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mjlt2/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[7.6.103, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Contract/RdErp.Financial.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Contract/RdErp.Financial.Contract.csproj",
+        "projectName": "RdErp.Financial.Contract",
+        "projectPath": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Contract/RdErp.Financial.Contract.csproj",
+        "packagesPath": "/Users/mjlt2/.nuget/packages/",
+        "outputPath": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Contract/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mjlt2/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/RdErp.Common.csproj": {
+                "projectPath": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/RdErp.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/RdErp.Financial.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/RdErp.Financial.DataAccess.csproj",
+        "projectName": "RdErp.Financial.DataAccess",
+        "projectPath": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/RdErp.Financial.DataAccess.csproj",
+        "packagesPath": "/Users/mjlt2/.nuget/packages/",
+        "outputPath": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mjlt2/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Contract/RdErp.Financial.Contract.csproj": {
+                "projectPath": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.Contract/RdErp.Financial.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "npgsql": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

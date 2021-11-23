@@ -1,0 +1,34 @@
+@secret=skdmf234i34nrkn98234444lsdklfsdf
+@auth=http://auth.rd-erp.io
+
+# Docker Win
+#@api=http://192.168.99.100/api/plan
+# Docker OS X
+#@api=http://localhost/api/planning
+
+# Local
+# @auth=http://localhost:4999
+ @api=http://localhost:5200/api
+
+###
+# @name token
+POST {{auth}}/connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&client_id=rd&client_secret={{secret}}&username=serg&password=root&scope=rd-erp
+
+###
+POST {{api}}/plan/regenerate-events
+Authorization: Bearer {{token.response.body.$.access_token}}
+Content-Type: application/json
+
+###
+GET {{api}}/planning-events/38
+Authorization: Bearer {{token.response.body.$.access_token}}
+
+###
+GET {{api}}/planning-events/all-at-month/2019-03-01
+Authorization: Bearer {{token.response.body.$.access_token}}
+
+
+

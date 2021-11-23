@@ -1,0 +1,90 @@
+@secret=skdmf234i34nrkn98234444lsdklfsdf
+@auth=http://auth.rd-erp.io
+
+# Docker Win
+#@api=http://192.168.99.100/api/plan
+# Docker OS X
+@api=http://localhost/api/planning
+
+# Local
+# @auth=http://localhost:4999
+# @api=http://localhost:5200/api
+
+###
+# @name token
+POST {{auth}}/connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&client_id=rd&client_secret={{secret}}&username=serg&password=root&scope=rd-erp
+
+###
+GET {{api}}/plan
+Authorization: Bearer {{token.response.body.$.access_token}}
+
+
+
+###
+GET {{api}}/plan/8
+Authorization: Bearer {{token.response.body.$.access_token}}
+
+
+###
+POST {{api}}/plan
+Authorization: Bearer {{token.response.body.$.access_token}}
+Content-Type: application/json
+
+{
+    "plan": {
+        "name": "Plan with schedules 2.1",
+        "isActive": true
+    },
+    "schedules": [
+        {
+            "name": "Income 1",
+            "currency": "USD",
+            "startDate": "2018-01-01",
+            "isActive": true,
+            "scheduleRule": "each-days-of-week",
+            "scheduleSettings": "{ \"weekFrequency\": 2, \"weekDays\": [1, 3, 5]}",
+            "valueExpression": "1200.0M",
+            "attributes": [
+                {
+                    "attribute": "CUSTOMER",
+                    "ref": 1
+                }
+            ]
+        },
+        {
+            "name": "Expence 2 (9)",
+            "currency": "UAH",
+            "startDate": "2018-01-01",
+            "isActive": true,
+            "scheduleRule": "each-days-of-month",
+            "scheduleSettings": "{
+                \"days\": [2, 15, 22]
+            }",
+            "valueExpression": "-550.0M",
+            "attributes": []
+        }
+    ]
+}
+
+###
+PUT {{api}}/plan/1
+Authorization: Bearer {{token.response.body.$.access_token}}
+Content-Type: application/json
+
+{
+    "name": "Test plan1",
+    "isActive": true
+}
+
+
+###
+DELETE {{api}}/plan/8
+Authorization: Bearer {{token.response.body.$.access_token}}
+
+###
+POST {{api}}/plan/regenerate-events
+Authorization: Bearer {{token.response.body.$.access_token}}
+Content-Type: application/json

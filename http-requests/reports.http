@@ -1,0 +1,31 @@
+@secret=skdmf234i34nrkn98234444lsdklfsdf
+
+# Docker OS X
+@auth=http://auth.rd-erp.io
+@api=http://localhost/api
+
+
+###
+# @name token
+POST {{auth}}/connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&client_id=rd&client_secret={{secret}}&username=serg&password=root&scope=rd-erp
+
+###
+GET {{api}}/report/planning-financial-results/2018-08-01/USD
+Authorization: Bearer {{token.response.body.$.access_token}}
+
+
+###
+GET {{api}}/report/monthly-plan-fact-results/UAH
+Authorization: Bearer {{token.response.body.$.access_token}}
+
+
+###
+GET {{api}}/fin/trans/at-month/2019-03-01/UAH
+Authorization: Bearer {{token.response.body.$.access_token}}
+
+###
+GET {{api}}/planning/planning-events/at-month/2019-03-01/UAH
+Authorization: Bearer {{token.response.body.$.access_token}}

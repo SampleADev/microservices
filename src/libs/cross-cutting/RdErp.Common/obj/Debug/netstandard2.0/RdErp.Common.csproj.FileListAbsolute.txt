@@ -1,0 +1,9 @@
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/bin/Debug/netstandard2.0/RdErp.Common.deps.json
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/bin/Debug/netstandard2.0/RdErp.Common.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/bin/Debug/netstandard2.0/RdErp.Common.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/obj/Debug/netstandard2.0/RdErp.Common.csprojAssemblyReference.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/obj/Debug/netstandard2.0/RdErp.Common.csproj.CoreCompileInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/obj/Debug/netstandard2.0/RdErp.Common.AssemblyInfoInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/obj/Debug/netstandard2.0/RdErp.Common.AssemblyInfo.cs
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/obj/Debug/netstandard2.0/RdErp.Common.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/cross-cutting/RdErp.Common/obj/Debug/netstandard2.0/RdErp.Common.pdb

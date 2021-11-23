@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/RdErp.Planning.EventGeneration.csproj": {}
+  },
+  "projects": {
+    "/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/RdErp.Planning.EventGeneration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/RdErp.Planning.EventGeneration.csproj",
+        "projectName": "RdErp.Planning.EventGeneration",
+        "projectPath": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/RdErp.Planning.EventGeneration.csproj",
+        "packagesPath": "/Users/mjlt2/.nuget/packages/",
+        "outputPath": "/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.EventGeneration/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mjlt2/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

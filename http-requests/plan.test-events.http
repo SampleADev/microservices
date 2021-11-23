@@ -1,0 +1,36 @@
+@secret=skdmf234i34nrkn98234444lsdklfsdf
+
+# Docker
+# @auth=http://auth.rd-erp.io
+# @api=http://localhost/api/plan
+
+# Local
+@auth=http://localhost:4999
+@api=http://localhost:5200/api
+
+
+
+###
+# @name token
+POST {{auth}}/connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&client_id=rd&client_secret={{secret}}&username=serg&password=root&scope=rd-erp
+
+
+###
+POST {{api}}/planning-events/generate-test-events
+Authorization: Bearer {{token.response.body.$.access_token}}
+Content-Type: application/json
+
+{
+    "schedule": {
+        "currency": "USD",
+        "scheduleRule": "each-days-of-month",
+        "scheduleSettings": "{
+            \"days\": [1, 15, 31]
+        }",
+        "valueExpression": "context.Ordinal*1550.0M"
+    },
+    "startDate": "2018-01-01"
+}

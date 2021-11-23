@@ -1,0 +1,158 @@
+version: "3"
+services:
+  postgresql:
+    image: postgres:10
+    ports:
+      - "2345:5432"
+    volumes:
+      - /Users/mjlt2/Documents/db/rd-erp:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: root
+      POSTGRES_DB: rd-erp
+
+  identity-service:
+    build:
+      context: .
+      dockerfile: ./docker/aspnet-service.Dockerfile
+      args:
+        PROJECT_NAME: RdErp.Identity.Service
+    command: ["dotnet", "RdErp.Identity.Service.dll"]
+    depends_on:
+      - postgresql
+    environment:
+      Identity:IssuerUri: "http://auth.rd-erp.io"
+      Identity:PublicOrigin: "http://auth.rd-erp.io"
+      Identity:Secret: "skdmf234i34nrkn98234444lsdklfsdf"
+      Identity:RedirectUris: "http://localhost/signin,http://localhost:8888/signin,http://rd-erp.io/signin,http://rd-erp.io:8888/signin"
+      Logging:LogLevel:Default: information
+
+  financial-service:
+    build:
+      context: .
+      dockerfile: ./docker/aspnet-service.Dockerfile
+      args:
+        PROJECT_NAME: RdErp.Financial.Service
+    command: ["dotnet", "RdErp.Financial.Service.dll"]
+    environment:
+      Db:ConnectionString: "Server=postgresql;Database=rd-erp;User Id=root;Password=root"
+      Db:ProviderName: "PostgreSQL.9.5"
+      Identity:Authority: "http://auth.rd-erp.io"
+      Identity:Secret: "skdmf234i34nrkn98234444lsdklfsdf"
+      Logging:LogLevel:Default: information
+    links:
+      - identity-service:auth.rd-erp.io
+    depends_on:
+      - postgresql
+
+  planning-service:
+    build:
+      context: .
+      dockerfile: ./docker/aspnet-service.Dockerfile
+      args:
+        PROJECT_NAME: RdErp.Planning.Service
+    command: ["dotnet", "RdErp.Planning.Service.dll"]
+    environment:
+      Db:ConnectionString: "Server=postgresql;Database=rd-erp;User Id=root;Password=root"
+      Db:ProviderName: "PostgreSQL.9.5"
+      Identity:Authority: "http://auth.rd-erp.io"
+      Identity:Secret: "skdmf234i34nrkn98234444lsdklfsdf"
+      Logging:LogLevel:Default: information
+    links:
+      - identity-service:auth.rd-erp.io
+    depends_on:
+      - postgresql
+
+  reference-info-service:
+    build:
+      context: .
+      dockerfile: ./docker/aspnet-service.Dockerfile
+      args:
+        PROJECT_NAME: RdErp.ReferenceInfo.Service
+    command: ["dotnet", "RdErp.ReferenceInfo.Service.dll"]
+    environment:
+      Db:ConnectionString: "Server=postgresql;Database=rd-erp;User Id=root;Password=root"
+      Db:ProviderName: "PostgreSQL.9.5"
+      Identity:Authority: "http://auth.rd-erp.io"
+      Identity:Secret: "skdmf234i34nrkn98234444lsdklfsdf"
+      Logging:LogLevel:Default: information
+    links:
+      - identity-service:auth.rd-erp.io
+    depends_on:
+      - postgresql
+
+  project-service:
+    build:
+      context: .
+      dockerfile: ./docker/aspnet-service.Dockerfile
+      args:
+        PROJECT_NAME: RdErp.Project.Service
+    command: ["dotnet", "RdErp.Project.Service.dll"]
+    links:
+      - identity-service:auth.rd-erp.io
+    depends_on:
+      - postgresql
+
+  reporting-service:
+    build:
+      context: .
+      dockerfile: ./docker/aspnet-service.Dockerfile
+      args:
+        PROJECT_NAME: RdErp.Reporting.Service
+    command: ["dotnet", "RdErp.Reporting.Service.dll"]
+    environment:
+      Db:ConnectionString: "Server=postgresql;Database=rd-erp;User Id=root;Password=root"
+      Db:ProviderName: "PostgreSQL.9.5"
+      Identity:Authority: "http://auth.rd-erp.io"
+      Identity:Secret: "skdmf234i34nrkn98234444lsdklfsdf"
+      Logging:LogLevel:Default: information
+    links:
+      - identity-service:auth.rd-erp.io
+    depends_on:
+      - postgresql
+
+  attribute-service:
+    build:
+      context: .
+      dockerfile: ./docker/aspnet-service.Dockerfile
+      args:
+        PROJECT_NAME: RdErp.Attributes.Service
+    command: ["dotnet", "RdErp.Attributes.Service.dll"]
+    environment:
+      Db:ConnectionString: "Server=postgresql;Database=rd-erp;User Id=root;Password=root"
+      Db:ProviderName: "PostgreSQL.9.5"
+      Identity:Authority: "http://auth.rd-erp.io"
+      Identity:Secret: "skdmf234i34nrkn98234444lsdklfsdf"
+      Logging:LogLevel:Default: information
+    links:
+      - identity-service:auth.rd-erp.io
+    depends_on:
+      - postgresql
+
+  ui:
+    build:
+      context: ./src/frontend
+      args:
+        RD_ERP_API_URL: "http://localhost/api"
+        RD_ERP_LOGIN_URL: "http://auth.rd-erp.io/connect/authorize"
+    depends_on:
+      - identity-service
+      - financial-service
+      - project-service
+      - planning-service
+      - reference-info-service
+    environment:
+      RD_ERP_API_URL: "http://localhost/api"
+      RD_ERP_LOGIN_URL: "http://auth.rd-erp.io/connect/authorize"
+
+  traefik:
+    image: traefik
+    command: --web --file --file.filename=/etc/traefik-config/traefik.file.toml --logLevel=INFO --configFile=/etc/traefik-config/traefik.toml
+    volumes:
+      - /Users/mjlt2/Documents/dev/rd-erp/docker/:/etc/traefik-config
+    ports:
+      - "80:80"
+      - "8088:8080"
+      # - "44:443"
+    depends_on:
+      - ui

@@ -1,0 +1,14 @@
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/bin/Debug/netstandard2.0/RdErp.Financial.DataAccess.deps.json
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/bin/Debug/netstandard2.0/RdErp.Financial.DataAccess.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/bin/Debug/netstandard2.0/RdErp.Financial.DataAccess.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/obj/Debug/netstandard2.0/RdErp.Financial.DataAccess.csprojAssemblyReference.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/obj/Debug/netstandard2.0/RdErp.Financial.DataAccess.csproj.CoreCompileInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/obj/Debug/netstandard2.0/RdErp.Financial.DataAccess.AssemblyInfoInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/obj/Debug/netstandard2.0/RdErp.Financial.DataAccess.AssemblyInfo.cs
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/obj/Debug/netstandard2.0/RdErp.Financial.DataAccess.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/obj/Debug/netstandard2.0/RdErp.Financial.DataAccess.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/bin/Debug/netstandard2.0/RdErp.Financial.Contract.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/bin/Debug/netstandard2.0/RdErp.Financial.Contract.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/obj/Debug/netstandard2.0/RdErp.Financial.DataAccess.csproj.CopyComplete
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/bin/Debug/netstandard2.0/RdErp.Common.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/financial/RdErp.Financial.DataAccess/bin/Debug/netstandard2.0/RdErp.Common.pdb

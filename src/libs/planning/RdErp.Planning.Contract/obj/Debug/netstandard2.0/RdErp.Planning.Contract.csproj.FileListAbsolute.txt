@@ -1,0 +1,12 @@
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.Contract/bin/Debug/netstandard2.0/RdErp.Planning.Contract.deps.json
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.Contract/bin/Debug/netstandard2.0/RdErp.Planning.Contract.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.Contract/bin/Debug/netstandard2.0/RdErp.Planning.Contract.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.Contract/obj/Debug/netstandard2.0/RdErp.Planning.Contract.csprojAssemblyReference.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.Contract/obj/Debug/netstandard2.0/RdErp.Planning.Contract.csproj.CoreCompileInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.Contract/obj/Debug/netstandard2.0/RdErp.Planning.Contract.AssemblyInfoInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.Contract/obj/Debug/netstandard2.0/RdErp.Planning.Contract.AssemblyInfo.cs
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.Contract/obj/Debug/netstandard2.0/RdErp.Planning.Contract.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.Contract/obj/Debug/netstandard2.0/RdErp.Planning.Contract.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.Contract/bin/Debug/netstandard2.0/RdErp.Common.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.Contract/bin/Debug/netstandard2.0/RdErp.Common.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.Contract/obj/Debug/netstandard2.0/RdErp.Planning.Contract.csproj.CopyComplete

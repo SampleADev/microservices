@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\cross-cutting\RdErp.Common\RdErp.Common.csproj" />
+    <ProjectReference Include="..\..\cross-cutting\RdErp.DataAccess\RdErp.DataAccess.csproj" />
+    <ProjectReference Include="..\RdErp.Attributes.Contract\RdErp.Attributes.Contract.csproj" />
+    <ProjectReference Include="..\RdErp.Attributes.DataAccess\RdErp.Attributes.DataAccess.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

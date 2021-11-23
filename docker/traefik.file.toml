@@ -1,0 +1,95 @@
+[frontends]
+    [frontends.fin]
+        entrypoints = ["http"]
+        backend="fin"
+        [frontends.fin.routes.matchUrl]
+            rule="PathPrefixStrip:/api/fin"
+        [frontends.fin.routes.rewriteUrl]
+            rule = "AddPrefix: /api"
+
+    [frontends.plan]
+        entrypoints = ["http"]
+        backend="plan"
+        [frontends.plan.routes.matchUrl]
+            rule="PathPrefixStrip:/api/planning"
+        [frontends.plan.routes.rewriteUrl]
+            rule = "AddPrefix: /api"
+
+    [frontends.ref]
+        entrypoints = ["http"]
+        backend="ref"
+        [frontends.ref.routes.matchUrl]
+            rule="PathPrefixStrip:/api/ref"
+        [frontends.ref.routes.rewriteUrl]
+            rule = "AddPrefix: /api"
+
+    [frontends.report]
+        entrypoints = ["http"]
+        backend="report"
+        [frontends.report.routes.matchUrl]
+            rule="PathPrefixStrip:/api/report"
+        [frontends.report.routes.rewriteUrl]
+            rule = "AddPrefix: /api"
+
+    [frontends.attribute]
+        entrypoints = ["http"]
+        backend="attribute"
+        [frontends.attribute.routes.matchUrl]
+            rule="PathPrefixStrip:/api/attr"
+        [frontends.attribute.routes.rewriteUrl]
+            rule = "AddPrefix: /api"
+
+    [frontends.proj]
+        entrypoints = ["http"]
+        backend="proj"
+        [frontends.proj.routes.matchUrl]
+            rule="PathPrefixStrip: /api/proj"
+        [frontends.proj.routes.rewriteUrl]
+            rule = "AddPrefix: /api"
+
+    [frontends.identity]
+        entrypoints = ["http"]
+        backend = "identity"
+        [frontends.identity.routes.matchUrl]
+            rule = "Host: auth.rd-erp.io"
+
+    [frontends.ui]
+        entrypoints = ["http"]
+        backend="ui"
+
+
+[backends]
+    [backends.fin]
+        #
+        [backends.fin.servers.main]
+        # url = "http://host.docker.internal:5100"
+        url = "http://financial-service"
+    [backends.proj]
+        #
+        [backends.proj.servers.main]
+        # url = "http://host.docker.internal:5000"
+        url = "http://project-service"
+    [backends.plan]
+        [backends.plan.servers.local]
+        #     url = "http://host.docker.internal:5200"
+        # [backends.plan.servers.docker]
+            url = "http://planning-service"
+    [backends.report]
+        [backends.report.servers.main]
+        # url = "http://host.docker.internal:5400"
+        url = "http://reporting-service"
+    [backends.attribute]
+        [backends.attribute.servers.main]
+        # url = "http://host.docker.internal:5200"
+        url = "http://attribute-service"
+    [backends.ref]
+        #
+        [backends.ref.servers.main]
+        # url = "http://host.docker.internal:5300"
+        url = "http://reference-info-service"
+    [backends.ui]
+        [backends.ui.servers.main]
+        url = "http://ui"
+    [backends.identity]
+        [backends.identity.servers.main]
+        url = "http://identity-service"

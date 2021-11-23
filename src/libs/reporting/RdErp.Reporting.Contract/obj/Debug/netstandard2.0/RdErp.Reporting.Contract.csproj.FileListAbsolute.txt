@@ -1,0 +1,14 @@
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/bin/Debug/netstandard2.0/RdErp.Reporting.Contract.deps.json
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/bin/Debug/netstandard2.0/RdErp.Reporting.Contract.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/bin/Debug/netstandard2.0/RdErp.Reporting.Contract.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/bin/Debug/netstandard2.0/RdErp.Common.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/bin/Debug/netstandard2.0/RdErp.DataAccess.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/bin/Debug/netstandard2.0/RdErp.Common.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/bin/Debug/netstandard2.0/RdErp.DataAccess.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/obj/Debug/netstandard2.0/RdErp.Reporting.Contract.csproj.CoreCompileInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/obj/Debug/netstandard2.0/RdErp.Reporting.Contract.AssemblyInfoInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/obj/Debug/netstandard2.0/RdErp.Reporting.Contract.AssemblyInfo.cs
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/obj/Debug/netstandard2.0/RdErp.Reporting.Contract.csproj.CopyComplete
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/obj/Debug/netstandard2.0/RdErp.Reporting.Contract.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/obj/Debug/netstandard2.0/RdErp.Reporting.Contract.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/reporting/RdErp.Reporting.Contract/obj/Debug/netstandard2.0/RdErp.Reporting.Contract.csprojAssemblyReference.cache

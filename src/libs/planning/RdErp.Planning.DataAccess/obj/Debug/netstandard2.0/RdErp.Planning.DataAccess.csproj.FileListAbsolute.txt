@@ -1,0 +1,16 @@
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/bin/Debug/netstandard2.0/RdErp.Planning.DataAccess.deps.json
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/bin/Debug/netstandard2.0/RdErp.Planning.DataAccess.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/bin/Debug/netstandard2.0/RdErp.Planning.DataAccess.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/bin/Debug/netstandard2.0/RdErp.Common.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/bin/Debug/netstandard2.0/RdErp.DataAccess.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/bin/Debug/netstandard2.0/RdErp.Planning.Contract.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/bin/Debug/netstandard2.0/RdErp.Common.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/bin/Debug/netstandard2.0/RdErp.DataAccess.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/bin/Debug/netstandard2.0/RdErp.Planning.Contract.pdb
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/obj/Debug/netstandard2.0/RdErp.Planning.DataAccess.csprojAssemblyReference.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/obj/Debug/netstandard2.0/RdErp.Planning.DataAccess.csproj.CoreCompileInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/obj/Debug/netstandard2.0/RdErp.Planning.DataAccess.AssemblyInfoInputs.cache
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/obj/Debug/netstandard2.0/RdErp.Planning.DataAccess.AssemblyInfo.cs
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/obj/Debug/netstandard2.0/RdErp.Planning.DataAccess.csproj.CopyComplete
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/obj/Debug/netstandard2.0/RdErp.Planning.DataAccess.dll
+/Users/mjlt2/Documents/dev/rd-erp/src/libs/planning/RdErp.Planning.DataAccess/obj/Debug/netstandard2.0/RdErp.Planning.DataAccess.pdb
